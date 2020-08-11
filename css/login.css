@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+
+#register  { 
+float:left;
+margin-left: 30px;
+margin-right: 20px;
+margin-top:100px;
+//position:relative;
+}
+#login{
+//margin-left: 20px;
+margin-top:100px;
+//position:relative;
+width:450px;
+float:right;
+}
+#apart{ 
+height:600px;
+border:1px solid #c3c3c3;
+width:0px;
+float:left; 
+margin-right:20px;
+margin-top:100px;
+//position:relative;}
+.FormWrap,.FormWrapTabs{
+background-color:#B7E8FF;
+border:1px solid #000}
+
+.FormHeader{background-color:#0976e2}
+.FormWrap{margin:0;}
+.FormWrapTabs{padding:10px 16px 16px}
+.FormWF{
+display:inline-block;
+min-width:988px;
+margin:8px;
+width:-moz-calc(100% - 16px);
+width:-webkit-calc(100% - 16px);
+width:calc(100% - 16px)}
+.FormHeader{padding:8px 8px 10px 16px}
+.FormHeader h1,.FormHeader h2{
+color:#FFF;
+margin:0;
+text-align:center;}
+.FormData{padding:18px}
+.FormDataTextOnly{padding:32px 48px 48px}
+.FormText{
+font-size:14px;
+color:#333;
+padding-left:16px;
+padding-bottom:18px}
+.btnTitleCollapse font.SiteIcons{margin-left:-2px}
+
+.FormData TABLE TD{padding:8px 2px 8px 8px}
+.FormData TABLE.MenusTbl TD{padding:4px 0 4px 4px}
+.FormData TABLE TD.InpLbl{
+padding:12px 2px 8px 10px;
+text-align:right;
+vertical-align:top;
+white-space:nowrap}
+.FormData TABLE INPUT,.FormData TABLE SELECT{padding:4px}
+.HintRed{
+padding-top:4px;
+padding-bottom:2px;
+font-size:11px;
+color:#B2B2B2}
+.FormData TABLE DIV.HintRed{color:red}
+.FormData TABLE DIV.ErrMsg,.FormData TABLE DIV.ScssMsg,.ScssMsg2{
+display:-moz-inline-stack;
+display:inline-block;
+zoom:1;
+padding:4px 6px;
+color:Maroon;
+border:1px solid red;
+background-color:#FFD9D9}
+
+.FormData TABLE DIV.ScssMsg,.ScssMsg2{
+color:green;
+border:1px solid green;
+background-color:#E8FFE8}
+.btnEnb{
+white-space:nowrap;
+padding:0 6px 0 4px;
+height:34px}
+a.btnEnb{height:32px}
+
+.SiteIcons{
+line-height:32px;
+position:relative;
+padding-left:8px}
+.btnEnb{
+text-shadow:-1px -1px 1px #000000;
+background-color:#0976e2 ;
+border:1px solid #FFF;
+cursor:default;
+cursor:pointer}
+.btnEnb:hover{
+background-color:#2982da;
+//border:1px solid #000;
+}
+a.btnEnb{display:inline-block}
+.btnDisWol,.btnEnbWol{width:34px}
+.btnDis font.SiteIcons,.btnDisWol font.SiteIcons,.btnEnb font.SiteIcons{
+color:#FFF;
+padding-left:4px;
+padding-right:0;
+line-height:20px;
+cursor:default;
+cursor:pointer}
+.btnEnb font.SiteIcons{padding-left:8px}
+.SiteIcons{
+color:#CCC;
+cursor:default}
+.btnEnb span{
+position:relative;
+top:-2px;
+padding:0 4px 0 8px;
+vertical-align:bottom;
+color:#FFF;}
+.btnEnb a {text-decoration:none; }

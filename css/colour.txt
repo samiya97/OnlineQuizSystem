@@ -1,0 +1,2 @@
+header footer : #0976e2 dark blue
+container: #B7E8FF light blue

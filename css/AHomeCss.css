@@ -1,0 +1,67 @@
+/*css for admin home*/
+.controls{
+width:600px;
+margin:auto;
+height:330px;
+//border:1px solid black;
+margin-top:200px;
+box-shadow:8px 8px 5px;
+}
+.controls ul{
+//border:1px solid black;
+width:200px;
+height:330px;
+margin:0px;
+padding:0px;
+border-left:1px solid #097362;
+float:left;
+}
+.controls ul li{
+margin-top:40px;
+list-style:none;
+//border:1px solid blue;
+height:55px;
+text-align:center;
+width:200px;
+background-color:#0976e2;
+line-height:2;
+border-radius:0px 5px 5px 0px;
+}
+.controls ul li a{
+color:black;
+//border:1px solid red;
+display:block;
+text-decoration:none;
+font-size:26px;
+}
+.info{
+border:1px solid #097e62;
+width:70px;
+background-color:white;
+margin-top:15px;
+font-size:18px;
+border-radius:5px 0px 0px 5px;
+height:300px;
+//float:right;
+width:350px;
+line-height:5;
+margin-top:-80px;
+margin-left:240px;
+display:none;
+color:#0976e2;
+}
+.controls ul li:hover .info{
+display:block;
+}
+.temp{
+font-size:26px;
+float:right;
+margin-right:50px;
+margin-top:120px;
+}
+.controls ul li:hover{
+background-color:#024846;
+}
+.controls ul li:hover a{
+color:white;
+}

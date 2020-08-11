@@ -1,0 +1,43 @@
+/*css for admin account*/
+.info{
+//border-left:1px solid black;
+margin:auto;
+background-color:#0976e2;
+width:450px;
+margin-top:120px;
+padding-top:30px;
+height:500px;
+box-shadow:4px 4px 2px black;
+border-radius:0px 10px 10px 0px;
+}
+.photo{
+width:150px;
+height:150px;
+border:1px solid black;
+border-radius:150px;
+margin:auto;
+background-color:white;
+background-image:url('img/photo.png');
+background-position:center;
+background-size:cover;
+}
+
+.name{
+margin:30px;
+//color:white;
+font-size:26px;
+text-align:center;
+}
+.name a{
+line-height:3;
+text-decoration:none;
+color:black;
+padding:15px;
+background-color:#B7E8FF;
+border-radius:10px;
+}
+.name a:hover{
+background-color:white;
+color:#0976e2;
+box-shadow:5px 5px 3px #000;
+}
